@@ -1,0 +1,65 @@
+.login img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.login{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.266);
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.login .form-filds{
+    place-self: center;
+    width: max(23vw,230px);
+    color: #252424;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 30px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.form-filds .heading .filds{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.form-filds .input-fileds input{
+    margin-bottom: 15px;
+    height: 30px;
+    width: 80%;
+    outline: none;
+}
+.input-fileds input[type="email"]{
+    padding-left: 5px;
+}
+.input-fileds input[type="password"]{
+    padding-left: 5px;
+}
+.input-fileds input[type="text"]{
+    padding-left: 5px;
+}
+.input-fileds .conditions{
+    display: flex;
+    gap: 10px;
+}
+.input-fileds .conditions input{
+    width: 15px;
+    height: 15px;
+}
+.form-filds .btns button{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(20, 149, 208);
+    border: none;
+    color: white;
+    outline: none;
+    font-weight: 600;
+}
+.form-filds .anuthor p span{
+    color: rgb(65, 148, 207);
+}

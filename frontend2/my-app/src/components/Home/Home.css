@@ -1,0 +1,11 @@
+.home{
+    height: 36vw;
+    background: url('../../assets/Forntend/Banner.jpg') no-repeat;
+    position: relative;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #e1dfdf;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: -1;
+  }

@@ -1,0 +1,22 @@
+.add-items{
+    margin: 20px 20px;
+    width: 100%;
+}
+.add-items .image-pic{
+    margin-top: 10px;
+}
+.add-items .add-list{
+    width: 40%;
+}
+.image-pic img{
+    margin: 10px 10px;
+    height: 190px;
+    width: 150px;
+}
+
+.add-items .submit-btn{
+    margin-top: 20px;
+}
+.add-items label{
+    margin-bottom: 10px;
+}

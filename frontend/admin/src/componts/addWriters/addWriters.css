@@ -1,0 +1,25 @@
+.add-writers{
+    margin: 30px 30px;
+    width: 100%;
+}
+.main-writer{
+    width: 50%;
+}
+.main-writer .image-pic{
+    margin-top: 10px;
+}
+.main-writer .add-list{
+    width: 40%;
+}
+.image-pic img{
+    margin: 10px 10px;
+    height: 180px;
+    width: 150px;
+}
+
+.main-writer .submit-btn{
+    margin-top: 20px;
+}
+.main-writer label{
+    margin-bottom: 10px;
+}

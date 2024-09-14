@@ -1,0 +1,40 @@
+.side-bar{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    width: 15%;
+    text-align: right;
+    border-right: 2px solid #cccc;
+}
+.side-bar .side-bar-list{
+    margin: 50px 20px;
+}
+.side-bar-list .list-one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0px;
+    width: 191px;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.side-bar-list .list-one.active{
+    color: tomato;
+    align-items: center;
+}
+.list-one .write{
+    width: 39px;
+}
+@media (max-width:750px) {
+    .side-bar-list .list-one{
+        width: 40px;
+        align-items: center;
+    }
+    .list-one p{
+        display: none;
+    }
+    .list-one img{
+        margin-right: 20px;
+    }
+}

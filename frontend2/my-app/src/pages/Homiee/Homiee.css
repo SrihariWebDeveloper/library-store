@@ -1,0 +1,8 @@
+.comp-list{
+    margin: auto 50px;
+    overflow: hidden;
+}
+.comp{
+    display: flex;
+    flex-direction: column;
+}

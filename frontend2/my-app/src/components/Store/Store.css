@@ -1,0 +1,10 @@
+.store{
+    text-align: center;
+    margin-top: 20px;
+}
+.store .play h2{
+    margin-bottom: 20px;
+}
+.play .image-play img{
+    margin: 10px 10px;
+}

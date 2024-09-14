@@ -1,0 +1,58 @@
+.show{
+    width: 100%;
+    background-color: rgb(196, 201, 199);
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.show .tools img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.tools button{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(92, 178, 228);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tools{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.show .book-data{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.book-data h2{
+    font-size: 40px;
+}
+.book-data .main{
+    margin-top: 10px;
+}
+.book-data .main img{
+    height: 60px;
+    width: 60px;
+}
+.book-data .main .info{
+    margin-top: 10px;
+    width: 80%;
+}
+.info h4{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.info h6{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.info p{
+    font-size: 20px;
+    margin-top: 10px;
+}
