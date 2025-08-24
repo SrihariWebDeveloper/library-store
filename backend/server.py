@@ -176,7 +176,9 @@ def unsave():
     return jsonify({"success":True,"message":"unsaved book successfuly"})
 
 
-
+@app.route('/', methods=['GET'])
+def main():
+    return "hello"
 
 
 if __name__ == '__main__':

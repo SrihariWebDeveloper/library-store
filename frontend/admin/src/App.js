@@ -11,7 +11,7 @@ import WriterList from './componts/writerslist/Writerlist.js'
 
 
 const App = () => {
-  const url = 'http://localhost:5000/'
+  const url = 'http://localhost:5000'
   return (
     <div>
     <ToastContainer/>
