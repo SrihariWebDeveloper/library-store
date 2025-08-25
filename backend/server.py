@@ -9,6 +9,11 @@ import base64
 import os
 
 
+from dotenv import load_dotenv
+# Load environment variables from .env file
+load_dotenv()
+
+conn_string = os.getenv("MONGOODB_URL")
 
 
 app = Flask(__name__)
@@ -19,7 +24,7 @@ app.secret_key = 'your_secret_key'
 
 #connecting db
 client = MongoClient()
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient(conn_string)
 myDb = client["bookStore"]
 myUser = myDb["Users"]
 Books = myDb['Books']
@@ -182,4 +187,4 @@ def main():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
